@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Resultado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body onload="corrigir()">
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md text-center p-5 bg-light text-info">
+                    <h1 class="display-2 fw-bold">Parabéns, você finalizou o quiz!</h1>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="row">
+                <div class="col-md-6 p-5 bg-info d-flex justify-content-center align-items-center">
+                    <img src="/bg tras.png" alt="Ilustração" width="65%">
+                </div>
+                <div class="col-md-6 bg-info d-flex flex-column justify-content-center align-items-center p-5">
+                    <h2 class="text-light mb-4">Veja seu resultado</h2>
+                    
+                    <div id="resultadoFinal" class="text-center text-light">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row bg-light py-2 px-3 d-flex">
+                <div class="col-md-11 text-dark">
+                    &copy; 2025 Kemilly Ribeiro (Universidade Positivo Londrina)
+                </div>
+                <div class="col-md-1 text-end">
+                    <a href="https://github.com/kemillyys" target="_blank">
+                        <img src="/logo-github-removebg-preview.png" alt="Logo do GitHub" width="30%">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
